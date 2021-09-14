@@ -8,3 +8,25 @@ double getMaxIndex(vector <double> arr) {
 	}
 	return getIndex;
 }
+
+double getSumArray(vector <double> arr) {
+	int lastPlusIndex = arr.size();
+	double getSumArray = 0;
+	for (int i = 0; i < lastPlusIndex; i++) {
+		if ((arr[i] > 0) & (i = lastPlusIndex))
+
+			break;
+
+		else {
+			arr[i] += arr[i];
+			getSumArray = arr[i];
+		}
+		
+	}
+	return getSumArray;
+
+}
+
+
+
+

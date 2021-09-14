@@ -7,6 +7,7 @@ int main() {
 	arr.resize(N);
 	for (int i = 0; i < N; i++)
 	cin >> arr[i];
-	cout << getMaxIndex(arr);
+	cout << getMaxIndex(arr) << endl;
+	cout << getSumArray(arr) << endl;
 	return 0;
 }
